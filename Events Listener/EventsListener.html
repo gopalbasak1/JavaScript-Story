@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Listener</title>
+</head>
+<body>
+    <button id="demo">Toggle Colors</button>
+
+    <script>
+        demo.addEventListener('mouseover',setDark);
+        demo.addEventListener('mouseout', setLight)
+
+        function setDark(){
+            document.body.style.background = "black";
+            demo.style.color = 'purple'
+        }
+
+        function setLight(){
+            document.body.style.background = "white";
+            demo.style.color = 'black'
+        }
+    </script>
+</body>
+</html>

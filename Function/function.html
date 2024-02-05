@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+
+    <!-- <h1>JavaScript Functions</h1>
+
+    <p>Call a function which performs a calculation and returns the result:</p> -->
+
+    <h1>JavaScript Functions</h1>
+
+    <p>Outside myFunction() carName is undefined.</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+        // function myFunction(p1, p2){
+        //     return p1 * p2
+        // }
+        // let result = myFunction(4,3)
+        // document.getElementById('demo').innerHTML=result
+
+        // let x = myFunction(4,3)
+        // document.getElementById('demo').innerHTML=x
+        // function myFunction(a,b){
+        //     return a * b;
+        // }
+
+        // function toCelsius(fahrenheit){
+        //     return (5/9) * (fahrenheit-32)
+        // }
+        // let value = toCelsius(77);
+        // document.getElementById('demo').innerHTML=value;
+
+            // let text = "The temperature is" + toCelsius(77) + "Celsius";
+            // document.getElementById('demo').innerHTML=text;
+            // function toCelsius(fahrenheit){
+            //     return (5/9) * (fahrenheit-32)
+            // }
+
+            // let x = toCelsius(77)
+            // let text = "The temperature is" + x + "Celsius";
+            // document.getElementById('demo').innerHTML=text;
+            // function toCelsius(fahrenheit){
+            //     return (5/9) * (fahrenheit-32)
+            // }
+
+            let text = "Outside:" + typeof carName;
+            document.getElementById('demo1').innerHTML=text;
+
+            function myFunction(){
+                let carName = "Volvo";
+                let text = "Inside:" + typeof carName + " " + carName;
+                document.getElementById('demo2').innerHTML=text
+            }
+            myFunction()
+
+    </script>
+</body>
+</html>
