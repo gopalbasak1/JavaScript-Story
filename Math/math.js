@@ -6,4 +6,4 @@
 // Math.ceil('2.99 = 3; 2.23 = 3');
 // Math.random('always change the numbers randomly');
 
- console.log(Math.pow(2,3));
+// console.log(Math.pow(2,3));
